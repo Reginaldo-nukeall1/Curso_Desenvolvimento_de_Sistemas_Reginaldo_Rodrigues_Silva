@@ -1,0 +1,101 @@
+body { 
+    background-color: rgb(17, 17, 17);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p { 
+    color: rgb(242, 240, 243);
+    font-size: 15px;    
+}
+
+h1 {
+    font-size: 60px;
+}
+
+ul{
+   font-size: 15px;
+  color:white;
+}   
+
+h2 {
+    font-size: 40px;
+    text-align: left;
+    color:white;
+}
+
+.lista_de_hobbies{
+    margin:30xp;
+    margin-top:40px;
+    font-size:20px;
+    list-style: circle;
+}
+
+h3 {
+    font-size: 40px;
+    color:white;
+}
+img {
+    margin-bottom: 30px;
+    margin-left: 20;
+}
+h4{
+    font-size: 40px;
+    color:white
+}
+
+footer {
+    font-size: 10px;
+    background-color: rgb(48, 18, 158);
+    color: rgb(222, 233, 199);
+    margin-top: 30px;
+}
+
+h5 {
+    font-size: 25px;
+    color:white;
+}
+
+/*a link normal (ainda não visitado)*/
+a:link{
+    text-decoration: line;
+    font-size: 20px;
+    color:rgb(24, 101, 243);
+}
+/* muda a cor apartir do momento que já clicou antes*/
+a:visited{
+    color:rosybrown;
+}
+
+/*cor mudar ao passar o mouse*/
+a:hover{
+    color: orange;
+}
+/*mudar a cor quando clica*/
+a:active{
+    color:brown;
+}
+#Titulo {
+    background-color: rgb(48, 18, 158);
+    padding: 50px;
+}
+
+.identidade{
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    margin:30px;
+    text-align: center;
+    margin-top:40px;
+}
+
+.informacoes_de_apresentacao{
+    color:red;
+    margin: 60px;
+    padding: 70px;
+    background-color:rgb(59, 70, 64);
+    font-size: 20px;
+}
+
+.fundao_do_final{
+    padding: 40px;
+    font-size: 20px;
+}

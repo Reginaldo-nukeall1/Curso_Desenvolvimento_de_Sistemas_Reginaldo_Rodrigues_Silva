@@ -1,0 +1,70 @@
+:root{
+    --border: 0.1rem solid white;
+    font-size: 10px;
+}
+
+*{
+    padding: 0%;
+    margin: 0%s;
+    color: aliceblue;
+    outline: none;
+    border: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+}
+
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(imagens/macos-27-golden-4480x3088-26626.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: rgb(7, 7, 14);
+    border-bottom: var(--border);
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    right: 0;
+    left: 0;
+
+}
+footer{
+    background-color: rgb(7, 7, 14);
+    border-top: var(--border);
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    font-size: 2rem;
+}
+main{
+    padding: 100px;
+    display: flexbox;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.navbar a{
+    margin: 0.1rem;
+    font-size: 1.8rem;
+    color: #fff;
+
+}
+
+.navbar a:hover{
+    color: grey;
+    border-bottom: 0.1rem solid grey;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+.sobremim{
+    display: inline-block;
+}

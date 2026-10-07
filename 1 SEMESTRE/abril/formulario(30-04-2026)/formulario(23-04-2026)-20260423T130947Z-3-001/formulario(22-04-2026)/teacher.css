@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(imagens/fundo_html.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #59429d;
+
+    margin-left: 36%;
+    margin-top: 2%;
+}
+
+#titulo {
+    color: #2a2133;
+    margin-left: 7%;    
+}
+
+#subtitulo{
+    color: #380B61;
+    margin-left: 10%;
+}
+
+fieldset {
+    border: none;
+}
+
+input,
+select,
+textarea,
+button{
+    font-family:sans-serif;
+    font-size: 16px;
+    color: blue;
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    display: block;
+    margin-bottom: 0.2em;
+    color:green;
+}
+
+fieldset.grupo .campo{
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select,
+.campo textarea {
+    display: block;
+    padding: 0.2m;
+    border: 1px solid blue;
+    box-shadow: 2px 2px 2px black;
+}
+
+#check {
+    display: inline-block;
+}
+.botao {
+    background-color: #59429d;
+    color:antiquewhite;
+    font-size: 1.2em;
+    border:none;
+    padding: 0.5em 1em;
+    margin-bottom: 1em;
+    cursor:pointer;
+}
+
+.botao:hover{
+    background-color: aqua;
+    color:black;
+}

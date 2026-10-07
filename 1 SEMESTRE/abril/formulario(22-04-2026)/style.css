@@ -1,0 +1,11 @@
+body {
+    background-image: url("fundo_html.jpg");
+    text-align: center;
+}
+textarea {
+    margin-top: 30px;
+}
+.askdotext {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
